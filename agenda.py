@@ -30,6 +30,7 @@ class Agenda:
         else:
             for event in self.events:
                 print(event)
+        return self.events
 
 if __name__ == "__main__":
     agenda = Agenda()
